@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="Stylish.css">
+
+</head>
+<body>
+<div>
+<fieldset>
+<h1>Digital Clock</h1>
+<div id="time" class="time-box"></div>
+<button onclick="start()">Current time</button>
+</fieldset>
+</div>
+<div>
+<fieldset>
+<h1>Dynamic Background</h1>
+<div class="dynamic_bg" onload="color_ch()" style="background-color: rgb(122, 193, 69);"></div>
+</fieldset>
+</div>
+<div>
+<fieldset>
+<h1>Changing Font Size</h1>
+<p id="para1" onmouseover="incSize()" onmouseout="decSize()" style="font-size: 15px;">move cursor over me to zoom in</p>
+</fieldset>
+</div>
+<div>
+<fieldset class="car">
+<h1>Move Car</h1>
+<div class="box">
+<img src="https://media.istockphoto.com/id/1326924480/vector/red-cartoon-car-flat-vector-illustration- icon-design-png.jpg?s=612x612&w=0&k=20&c=JmPbb1lQE6rkbw8rRyOjk0XISV7YI1g4K2TIoViKNiw=" height="20" width="20" class="car-img" id="c-img">
+</div>
+<button class="start_btn" onclick="init(); moveRight();">Start</button>
+<button class="stop_btn" onclick="stop()">Stop</button>
+</fieldset>
+</div>
+<div>
+<fieldset>
+<h1>Student Details</h1>
+<button class="stud_btn;" onclick="student()">Show Student Details</button>
+<br><br>
+<span id="after" style="color: red; font-size:30px"></span>
+<span id="stu1" class="stud"></span>
+<br>
+<span id="before" style="color: red; font-size:30px"></span>
+<span id="stu2" class="stud"></span>
+</fieldset>
+</div>
+<script src="JScript.js"></script>
+
+
+</body></html>

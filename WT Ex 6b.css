@@ -1,0 +1,40 @@
+.time-box{
+    text-align: center; width: 500px; height:100px; display: flex;
+    justify-content: center; align-items: center; align-self: center; border-radius: 30px; margin: 20px 0;
+    padding-left: 20px; padding-right: 10px; font-size: 40px;
+    background-color: aliceblue; color: black;
+    }
+    .dynamic_bg{
+    height: 300px; width: 300px;
+    }
+    .box{
+    position: relative;
+    }
+    .road-img{
+    height: 400px; width: 100%;
+    }
+    .car{
+    height: 200px;
+    }
+    .start_btn{
+    margin-top: 80px; margin-left: 30px;
+    }
+    .car-img{
+        position: absolute; left: 0;
+        width: 200px;
+        }
+        .stud{
+        font-size: 25px;
+        }
+        .stud_btn{
+        margin-top: 2px;
+         
+        }
+        h1{
+        
+        }
+         
+        
+        
+        text-align: center;
+    }
